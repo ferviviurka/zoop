@@ -21,6 +21,10 @@
             margin-top: -9px;
         }
 
+        @media only screen and (min-width: 1024px) and (max-width:1228px) {
+            margin-top: -148px;
+        }
+
     }
 
     &__btnHelpCenter {
@@ -83,7 +87,10 @@
                 width: 90%;
                 justify-content: center;
                 text-align: center;
+                
             }
+
+
 
             a {
                 text-decoration: none !important;
@@ -98,6 +105,11 @@
                 @media #{$medium-and-down} {
                     margin-left: 0px;
                 }
+
+                @media only screen and (min-width: 1024px) and (max-width:1228px) {
+                    font-size: 10px;
+                }
+        
 
                 &:hover {
 

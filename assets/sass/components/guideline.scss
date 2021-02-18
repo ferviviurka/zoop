@@ -46,7 +46,7 @@
 
 
             &-imgNumber {
-                width: 200px;
+                width: 150px;
                 height: 250px;
 
                 @media #{$medium-only} {
@@ -59,14 +59,14 @@
                     object-fit: cover;
 
                     @media only screen and (min-width: 1024px) {
-                        margin-left: -51px;
+                       // margin-left: -51px;
                     }
 
                 }
             }
 
             &-imgPhone {
-                min-width: 400px;
+                max-width: 400px;
                 height: auto;
                 z-index: 5;
 
@@ -74,19 +74,22 @@
                     min-width: 95%;
                 }
 
+                @media only screen and (min-width: 1024px) {
+                // margin-left: 50px;
+                    min-width: 95%;
 
+                }
                 img {
                     height: auto;
                     width: 100%;
                     object-fit: cover;
                     margin-top: -185px;
-                    margin-left: -10px;
 
                     @media only screen and (min-width: 1024px) {
-                        margin-left: -63px;
+                        //margin-left: -18px;
                     }
                     @media #{$medium-and-down} {
-                        margin-left: 35px;
+                        margin-left: 15px;
                     }
 
                     @media #{$medium-only} {

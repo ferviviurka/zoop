@@ -4944,7 +4944,7 @@ header .sidenav-trigger i {
 }
 .flexcarousel__item {
   width: 25%;
-  height: 250px;
+  height: 38vh;
   justify-items: stretch;
   color: black;
   background-color: white;
@@ -4954,27 +4954,42 @@ header .sidenav-trigger i {
   -moz-box-shadow: -3px 3px 112px -26px rgba(0, 0, 0, 0.68);
   box-shadow: -3px 3px 112px -26px rgba(0, 0, 0, 0.68);
   transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
   z-index: 2;
 }
 @media only screen and (max-width : 992px) {
   .flexcarousel__item {
     width: 65%;
-    height: 250px;
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
 @media only screen and (min-width : 601px) and (max-width : 992px) {
   .flexcarousel__item {
     width: 40%;
-    height: 295px;
     transform: scale(1.05);
   }
 }
 @media only screen and (max-width: 321px) {
   .flexcarousel__item {
     width: 60%;
-    height: 210px;
+    height: 27vh;
+    transform: scale(1.05);
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .flexcarousel__item {
+    height: 189px;
+    transform: scale(1.05);
+  }
+}
+@media only screen and (min-width: 1156px) {
+  .flexcarousel__item {
+    height: 200px;
+    transform: scale(1.05);
+  }
+}
+@media only screen and (min-width: 1267px) {
+  .flexcarousel__item {
+    height: 225px;
     transform: scale(1.05);
   }
 }
@@ -4987,6 +5002,18 @@ header .sidenav-trigger i {
   .flexcarousel__item--icon {
     height: 75px;
     width: 67px;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .flexcarousel__item--icon {
+    width: 54px;
+    height: 60px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .flexcarousel__item--icon {
+    width: 75px;
+    height: 67px;
   }
 }
 .flexcarousel__item--icon img {
@@ -5008,7 +5035,12 @@ header .sidenav-trigger i {
 }
 @media only screen and (max-width: 321px) {
   .flexcarousel__item--tittle {
-    font-size: 14px;
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .flexcarousel__item--tittle {
+    font-size: 18px;
   }
 }
 .flexcarousel__item--content {
@@ -5025,7 +5057,7 @@ header .sidenav-trigger i {
 }
 @media only screen and (max-width: 321px) {
   .flexcarousel__item--content {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 
@@ -5305,7 +5337,7 @@ header .sidenav-trigger i {
   }
 }
 .guideline__flexbox--item-imgNumber {
-  width: 200px;
+  width: 150px;
   height: 250px;
 }
 @media only screen and (min-width : 601px) and (max-width : 992px) {
@@ -5318,17 +5350,17 @@ header .sidenav-trigger i {
   height: auto;
   object-fit: cover;
 }
-@media only screen and (min-width: 1024px) {
-  .guideline__flexbox--item-imgNumber img {
-    margin-left: -51px;
-  }
-}
 .guideline__flexbox--item-imgPhone {
-  min-width: 400px;
+  max-width: 400px;
   height: auto;
   z-index: 5;
 }
 @media only screen and (max-width : 992px) {
+  .guideline__flexbox--item-imgPhone {
+    min-width: 95%;
+  }
+}
+@media only screen and (min-width: 1024px) {
   .guideline__flexbox--item-imgPhone {
     min-width: 95%;
   }
@@ -5338,16 +5370,10 @@ header .sidenav-trigger i {
   width: 100%;
   object-fit: cover;
   margin-top: -185px;
-  margin-left: -10px;
-}
-@media only screen and (min-width: 1024px) {
-  .guideline__flexbox--item-imgPhone img {
-    margin-left: -63px;
-  }
 }
 @media only screen and (max-width : 992px) {
   .guideline__flexbox--item-imgPhone img {
-    margin-left: 35px;
+    margin-left: 15px;
   }
 }
 @media only screen and (min-width : 601px) and (max-width : 992px) {
@@ -5514,6 +5540,11 @@ details p {
     margin-top: -9px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1228px) {
+  .dogFrame img {
+    margin-top: -148px;
+  }
+}
 .dogFrame__btnHelpCenter {
   width: 10%;
   height: 40px;
@@ -5594,6 +5625,11 @@ details p {
 @media only screen and (max-width : 992px) {
   .dogFrame__flexbox--item a {
     margin-left: 0px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1228px) {
+  .dogFrame__flexbox--item a {
+    font-size: 10px;
   }
 }
 .dogFrame__flexbox--item a:hover {
