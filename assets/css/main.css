@@ -4903,7 +4903,12 @@ header .sidenav-trigger i {
   font-size: 10px !important;
   padding: 0px 15px !important;
 }
+.frame .flexcontainerHome__item--img {
+  max-width: 400px;
+  height: 100%;
+}
 .frame .flexcontainerHome__item--img img {
+  object-fit: contain;
   width: 85%;
   height: auto;
 }
@@ -4915,8 +4920,9 @@ header .sidenav-trigger i {
 }
 @media only screen and (min-width : 601px) and (max-width : 992px) {
   .frame .flexcontainerHome__item--img img {
-    width: 90%;
+    width: 100%;
     height: auto;
+    margin-left: 115px;
   }
 }
 @media only screen and (max-width: 321px) {
