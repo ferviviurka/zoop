@@ -1,0 +1,117 @@
+.singupframe {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+
+    &__tittle {
+        text-align: center;
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 400;
+        color: #646363;
+
+        @media #{$medium-and-down} {
+            font-size: 24px;
+        }
+
+        @media #{$medium-only} {
+            font-size: 30px;
+        }
+
+        @media only screen and (max-width: 321px) {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+
+    &__send {
+        width: 50%;
+        height: 75px;
+        margin: 15px auto;
+        text-align: center;
+
+        @media #{$medium-and-down} {
+            width: 95%;
+        }
+
+        @media only screen and (max-width: 321px) {
+            width: 98%;
+        }
+
+        &--inputTel {
+            background-color: #ededed;
+            border-radius: 12px;
+            width: 50%;
+            height: 50px;
+            padding: 10px;
+            color: #c0bfbf;
+            margin-top: 10px;
+            line-height: 30px;
+            display: inline-block;
+            text-align: center;
+
+            @media #{$medium-and-down} {
+                width: 64%;
+            }
+
+            @media only screen and (max-width: 321px) {
+                width: 60%;
+            }
+
+            @media #{$medium-only} {
+                width: 35%;
+            }
+
+            input {
+                width: 77%;
+                outline: none !important;
+                border: none !important;
+                background-color: transparent !important;
+                text-align: center;
+
+                @media only screen and (max-width: 321px) {
+                    width: 70%;
+                }
+
+            }
+
+        }
+
+        &--btnSend {
+            width: 37%;
+            color: #fff;
+            margin-top: 10px;
+            line-height: 30px;
+            display: inline-block;
+
+            @media #{$medium-and-down} {
+                width: 33%;
+            }
+
+            @media only screen and (max-width: 321px) {
+                width: 30%;
+            }
+
+            @media #{$medium-only} {
+                width: 20%;
+            }
+
+            input {
+                height: 50px;
+                padding: 10px;
+                width: 100%;
+                border-radius: 12px;
+                outline: none !important;
+                border: none !important;
+                color: #fff !important;
+                background-image: $btn-color;
+                box-shadow: 0 0 20px #eee !important;
+
+            }
+        }
+    }
+
+}

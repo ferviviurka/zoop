@@ -1,0 +1,110 @@
+header {
+    transition: all 300ms;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 120px;
+    max-height: 100px;
+    transition: all 300ms;
+    background-color: transparent !important;
+    z-index: 10;
+
+    &.active {
+        //background-color: white !important;
+        // position: sticky;
+        // z-index: 1000;
+        // top: 0;
+        // left: 0;
+        // transition: all 300ms;
+
+        .brand-logo {
+            transition: all 300ms;
+        }
+    }
+
+    .sidenav-trigger {
+        z-index: 10;
+        color: #3B3937;
+
+        i {
+            font-size: 44px;
+            color: #3B3937 !important;
+        }
+    }
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    .header-menu {
+        display: flex;
+        z-index: 10;
+        width: 100%;
+
+        .icon-img {
+            width: 25px;
+            height: 25px;
+            align-items: center;
+            padding: 3px;
+        }
+
+        &__links {
+            font-size: 10px !important;
+            line-height: 44px;
+            font-weight: 500;
+            padding-right: 25px;
+            padding-left: 25px;
+            color: #ffffff;
+            font-weight: 500;
+        }
+
+        .brand-logo {
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            transition: all 300ms;
+            margin: 20px auto;
+
+            @media #{$medium-and-down}{
+                justify-content: flex-start !important;
+            }
+
+            img {
+                margin: 0 auto;
+                height: 55px;
+                width: 60%;
+
+                @media #{$medium-and-down}{
+                    margin: 0 !important;
+                    width: 100px !important;
+                    height: auto !important;
+                    float: left !important;
+                }
+            }
+        }
+    }
+
+}
+
+#start {
+    justify-content: flex-start;
+}
+
+#end {
+    justify-content: flex-end;
+}
+
+.centeredLogo {
+    margin: 0 auto;
+}
+
+.header-menu li img {
+    vertical-align: middle;
+
+}

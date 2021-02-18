@@ -1,0 +1,136 @@
+.guideline {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(52deg, rgba(255, 20, 212, 1) 30%, rgba(255, 125, 1, 1) 90%);
+
+    &__tittle {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 50px;
+        padding: 100px;
+        color: #fff;
+        font-weight: 400;
+
+        @media #{$medium-and-down} {
+            padding: 60px;
+            font-size: 24px;
+            line-height: 30px;
+        }
+
+        @media only screen and (max-width: 321px) {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+
+    &__flexbox {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+
+        @media #{$medium-and-down} {
+            justify-content: center;
+        }
+
+        &--item {
+            width: 30%;
+            height: auto;
+            color: white;
+
+            @media #{$medium-and-down} {
+                width: 85%;
+            }
+
+
+            &-imgNumber {
+                width: 200px;
+                height: 250px;
+
+                @media #{$medium-only} {
+                    width: 250px;
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+
+                    @media only screen and (min-width: 1024px) {
+                        margin-left: -51px;
+                    }
+
+                }
+            }
+
+            &-imgPhone {
+                min-width: 400px;
+                height: auto;
+                z-index: 5;
+
+                @media #{$medium-and-down} {
+                    min-width: 95%;
+                }
+
+
+                img {
+                    height: auto;
+                    width: 100%;
+                    object-fit: cover;
+                    margin-top: -185px;
+                    margin-left: -10px;
+
+                    @media only screen and (min-width: 1024px) {
+                        margin-left: -63px;
+                    }
+                    @media #{$medium-and-down} {
+                        margin-left: 35px;
+                    }
+
+                    @media #{$medium-only} {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            &-tittle {
+                padding: 20px;
+                font-weight: bold;
+                text-align: center;
+                font-size: 16px;
+                line-height: 17px;
+
+                // @media #{$medium-and-down}{
+                //     width: 100%;
+                //     margin: 0 auto;
+                // }
+                @media only screen and (max-width: 321px) {
+                    font-size: 14px;
+                    line-height: 16px;
+                }
+            }
+
+            &-content {
+                text-align: center;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: normal;
+                width: 90%;
+
+                @media #{$medium-and-down} {
+                    //width: 100%;
+                    margin: 0 auto;
+                }
+
+                @media only screen and (max-width: 321px) {
+                    margin: 0 auto;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+
+}
