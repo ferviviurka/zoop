@@ -5173,6 +5173,15 @@ header .sidenav-trigger i {
     transform: rotate(0deg);
   }
 }
+#tutor:hover,
+#store:hover {
+  background-color: white !important;
+  color: orangered !important;
+  -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+}
+
 .singupframe {
   width: 100%;
   height: auto;
@@ -5589,6 +5598,11 @@ details p {
   outline: none !important;
   margin: 0 auto;
 }
+.dogFrame__btnHelpCenter input:hover {
+  -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+}
 .dogFrame__flexbox {
   display: flex;
   flex-flow: row wrap;
@@ -5697,7 +5711,19 @@ footer {
   display: inline-block;
   text-align: center;
   font-size: 17px;
-  width: 250px;
+  width: 300px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 321px) {
+  .footerFrame__content--donwload {
+    width: 280px;
+  }
+}
+.footerFrame__content--donwload:hover {
+  border: solid 2px #919191;
+  -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
 }
 .footerFrame__content--donwload .footerText {
   display: inline-block;
@@ -5718,6 +5744,17 @@ footer {
   text-align: center;
   font-size: 17px;
   width: 300px;
+}
+@media only screen and (max-width: 321px) {
+  .footerFrame__content--follow {
+    width: 280px;
+  }
+}
+.footerFrame__content--follow:hover {
+  border: solid 2px #919191;
+  -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
 }
 .footerFrame__content--follow .footerText {
   display: inline-block;
