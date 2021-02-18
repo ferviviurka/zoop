@@ -4999,6 +4999,12 @@ header .sidenav-trigger i {
     transform: scale(1.05);
   }
 }
+@media only screen and (min-width: 1509px) {
+  .flexcarousel__item {
+    height: 275px;
+    transform: scale(1.05);
+  }
+}
 .flexcarousel__item--icon {
   height: 100px;
   width: 90px;
@@ -5227,6 +5233,31 @@ header .sidenav-trigger i {
 @media only screen and (max-width: 321px) {
   .singupframe__send {
     width: 98%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .singupframe__send {
+    width: 52%;
+  }
+}
+@media only screen and (min-width: 1156px) {
+  .singupframe__send {
+    width: 47%;
+  }
+}
+@media only screen and (min-width: 1267px) {
+  .singupframe__send {
+    width: 42%;
+  }
+}
+@media only screen and (min-width: 1509px) {
+  .singupframe__send {
+    width: 27%;
+  }
+}
+@media only screen and (min-width: 2060px) {
+  .singupframe__send {
+    width: 22%;
   }
 }
 .singupframe__send--inputTel {
