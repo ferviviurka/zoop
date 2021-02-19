@@ -5306,6 +5306,11 @@ header .sidenav-trigger i {
   line-height: 30px;
   display: inline-block;
 }
+.singupframe__send--btnSend:hover {
+  -webkit-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 28px -4px rgba(0, 0, 0, 0.75);
+}
 @media only screen and (max-width : 992px) {
   .singupframe__send--btnSend {
     width: 33%;
@@ -5502,12 +5507,7 @@ summary {
 }
 @media only screen and (max-width : 992px) {
   summary {
-    font-size: 0.55rem;
-  }
-}
-@media only screen and (min-width : 601px) and (max-width : 992px) {
-  summary {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -5552,11 +5552,11 @@ details > summary::-webkit-details-marker {
 }
 
 details p {
-  font-size: 0.55rem;
+  font-size: 0.85rem;
 }
 @media only screen and (min-width : 601px) and (max-width : 992px) {
   details p {
-    font-size: 0.75rem;
+    font-size: 0.6rem;
   }
 }
 

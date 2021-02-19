@@ -46,13 +46,10 @@ summary {
   position: relative;
 
   @media #{$medium-and-down} {
-    font-size: 0.55rem;
+    font-size: 0.60rem;
   }
 
-  @media #{$medium-only} {
-    font-size: 0.75rem;
-  }
-
+ 
 }
 
 
@@ -99,9 +96,10 @@ details>summary::-webkit-details-marker {
 }
 
 details p {
-  font-size: 0.55rem;
+  font-size: 0.85rem;
 
   @media #{$medium-only} {
-    font-size: 0.75rem;
+    font-size: 0.60rem;
   }
+
 }
