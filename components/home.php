@@ -25,8 +25,8 @@
             </div>
             <div class="flexcontainerHome__item">
                 <div class="flexcontainerHome__item--img">
-                    <img src="assets\images\phone.png" alt="Imagem phone" srcset="" class="shakeImg">
-                    <img src="assets\images\Sombra - celular.png" alt="Imagem phone" srcset="" class="shakeImgShadow" style="margin-top:-90px;">
+                    <img src="assets\images\phone.png" alt="Imagem phone" srcset="" class="shakeImg" style="z-index:99 !important;"> 
+                    <img src="assets\images\Sombra - celular.png" alt="Imagem phone" srcset="" class="shakeImgShadow" style="margin-top:-30px;">
                 </div>
             </div>
         </div>

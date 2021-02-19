@@ -8,7 +8,7 @@
                 <div class="guideline__flexbox--item-imgNumber">
                     <img src="assets\icons\1.png" alt="" srcset="">
                 </div>
-                <div class="guideline__flexbox--item-imgPhone">
+                <div class="guideline__flexbox--item-imgPhone" style="margin-left: 15px;">
                     <img src="assets\images\phone3.png" alt="">
                 </div>
                 <div class="guideline__flexbox--item-tittle">
